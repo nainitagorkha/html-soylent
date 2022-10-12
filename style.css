@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color:#b8dfb3;
+    height: 75vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+}
+
+.nav{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.navlist li{
+    display: inline-block;
+    font-size: medium;
+    font-weight: 200;
+    color: black;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    transition: all ease .8;
+    padding: .5rem;
+}
+
+.activity li{
+    display: inline-block;
+    font-size: medium;
+    font-weight: 200;
+    color: black;
+    border-radius: 5px;
+    transition: all ease .8;
+    padding: .5rem;
+}
+
+.navlist li:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #b8dfb3;
+}
+
+.activity li:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #b8dfb3;
+}
+
+#button{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fruits{
+    background-image: url(./images/SoylentStrawberrySplash_v2-1200x1800.jpg);
+    background-size: cover;
+    background-position-x: 15rem;
+    display: flex;
+    justify-content: center;
+    /* background-repeat: no-repeat; */
+    /* background-color: antiquewhite; */
+    height: 80vh;
+    width: 25vw;
+    scale: 60%;
+  
+}
+
+#textpara{
+    padding-top: 20vh;
+}
+
+#text{
+    text-align: left;
+    font-size: small;
+}
+#shop{
+    border-radius: 3px;
+    background-color:#b8dfb3
+    color: white;
+    box-shadow: 3px;
+    padding: 5px;
+    border: 1px solid #b8dfb3
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+}
+#shop:hover{
+    cursor: pointer;
+    background-color: #59cb4a;
+    color:black;
+}
+
+#note{
+    font-size: smaller;
+    margin-left: 30vh;
+}
+
+#india{
+    height: 20px;
+    width: 25px;
+}
